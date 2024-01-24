@@ -1,0 +1,291 @@
+:root{
+    --background :rgb(204, 221, 239,0.2);
+}
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+header{
+    border-bottom:1px solid rgb(0, 0, 0,0.3) ;
+    position: sticky;
+    width: 100%;
+    background-color: white;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+.logo a{
+    text-decoration: none;
+    color: black;
+}
+
+.logo a:hover{
+    color: none;
+}
+
+.logo {
+    
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.icon{
+    padding: 10px;
+}
+
+.navbar{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+.navbar ul{
+    list-style:  none;
+}
+
+.navbar li {
+    padding : 0 15px 8px;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: black;
+
+}
+
+.navbar a:hover{
+    color:blue ;
+}
+
+/* Section Home */
+
+.containerHome{
+    background-color: var(--background);
+    height: 618px;
+    display: flex;
+    padding: 16px;
+    align-items: center;
+}
+
+
+.textHome{
+    margin:144px 144px 144px 70px;
+}
+
+.text1Home{
+    font-size: 64px;
+    width: 728px;
+    font-weight: bold;
+}
+
+.text1Home span{
+    color : rgba(0, 0, 255, 0.655);
+}
+
+.text2Home{
+    color: rgb(0, 0, 0,0.5);;
+    padding: 16px 0;
+}
+
+.button1 button{
+    cursor:pointer;
+    background-color: rgba(0, 0, 255, 0.655);
+    border-radius: 4px;
+    width: 128px;
+    height: 52px;
+    border: 0;
+    color: white;
+    font-weight: bold 1%;
+}
+
+.product img {
+    scale: 110%;
+    width: 800px;
+    height: 500px;
+    transform: scaleX(-1);
+}
+
+/* SEcttion TASK */
+.containerTask{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 554px;
+}
+
+.textTask{
+    padding: 70px 50px 0;
+}
+
+.text1Task{
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.isianTask{
+    justify-content: center;
+    display: flex;
+    padding: 0 144px;
+}
+
+.isianTask1,
+.isianTask2{
+    width: 300px;
+    height: 280px;
+    border-radius: 8px;
+    border: 1px solid rgb(0, 0, 0,0.3);
+    margin: 90px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.teks1Isian {
+    font-style: italic;
+    margin: 0 20px;
+    font-size: 20px;
+}
+
+.logoTask img{
+    width: 170px;
+    transform: scaleX(-1);
+}
+
+.containerClient{
+    padding: 70px;
+    background-color: var(--background);
+    text-align: center;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+.textClient1{
+
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.textClient2{
+    color: rgb(0, 0, 0,0.5);
+}
+
+.client1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.client1 img{
+    margin: 40px 80px 0;    
+}
+
+.imgclient1{
+    width: 170px;
+    height: 180px;
+}
+
+.imgclient2{
+    width: 170px;
+    height: 160px;
+}
+
+.imgclient3,
+.imgclient4{
+    width: 170px;
+    height: auto;
+}
+
+/* Contact */
+.containerContact{
+    display: flex;
+    margin: 70px 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerContactAgain{
+    background-color: var(--background);
+    border-radius: 25px;
+}
+
+.containerContactAgain1{
+    align-items: center;
+    justify-content: center;
+    padding: 70px;
+}
+
+.terserah{
+    display: flex;
+}
+
+.mapContact{
+    margin: 0 50px;
+    align-items: center;
+}
+
+.mapContact iframe{
+    border-radius: 10px;
+}
+
+.form{
+    display: inline;
+}
+
+input {
+    padding: 10px 20px;
+    border-radius: 5px;
+    width: 300px;
+}
+
+.form button{
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: rgba(0, 0, 255, 0.655);
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.form a{
+    text-decoration: none;
+    color:white
+}
+
+/* footer */
+.containerFooter{
+    height: 80px;
+    border-radius: 20px 20px 0 0;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 20px 0;
+}
+
+.containerFooter h3{
+    color: rgb(0, 0, 0,0.5);
+    font-size: 15px;
+}
+
+.ContainerH1FOOTER{
+    display: flex;
+}
+
+footer{
+    border-top: 1px solid rgb(0, 0, 0,0.3);
+
+}
